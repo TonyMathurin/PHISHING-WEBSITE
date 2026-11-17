@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netflix</title>
+  <link rel="stylesheet" href="Main.css">
+  <link rel="icon" type="img" href="images.png">
+</head>
+<body>
+
+  <div class="main-wrapper">
+    <header>
+      <source><img class="logo-image" src="Net.png" alt="Netflix">
+    </header>
+
+    <main class="content">
+      <h1>Enter your info to sign in</h1>
+      <p class="subtitle">Or get started with a new account.</p>
+
+      <form>
+        <div class="input-group">
+          <input type="text" placeholder="Email address or mobile number" required />
+        </div>
+        <button type="submit" class="btn-continue">Continue</button>
+      </form>
+
+      <button type="button" class="help-toggle">
+        Get help
+        <svg viewBox="0 0 16 16">
+          <path d="M8 11L3 6h10l-5 5z" />
+        </svg>
+      </button>
+
+      <p class="recaptcha-text">
+        This page is protected by Google reCAPTCHA to ensure you're not a bot.
+      </p>
+    </main>
+  </div>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-top">
+        Questions? <a href="#">Contact us.</a>
+      </div>
+
+      <ul class="footer-links">
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Withdrawal</a></li>
+        <li><a href="#">Help Centre</a></li>
+        <li><a href="#">Terms of Use</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Cookie Preferences</a></li>
+        <li><a href="#">Corporate Information</a></li>
+        <li><a href="#">Advert choices</a></li>
+      </ul>
+
+      <div class="lang-select">
+        <span>文A</span>
+        <select aria-label="Select Language">
+          <option value="en">English</option>
+          <option value="tr">Türkçe</option>
+          <option value="nl">Nederlands</option>
+        </select>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
